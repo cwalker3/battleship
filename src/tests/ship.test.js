@@ -2,7 +2,7 @@ import { createShip } from '../js/ship';
 
 //hit() does not have any direct public side effects to test
 //it only indirectly affects isSunk()
-//it is indirectly tested by tested isSunk()
+//it is indirectly tested by testing isSunk()
 
 describe('isSunk', () => {
   it('returns true when ship is sunk', () => {
