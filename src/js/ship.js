@@ -9,5 +9,5 @@ export function createShip(length) {
     return _hits >= length;
   }
 
-  return { hit, isSunk };
+  return { length, hit, isSunk };
 }
